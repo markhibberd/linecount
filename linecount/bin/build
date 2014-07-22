@@ -1,0 +1,8 @@
+#!/bin/sh -eu
+
+echo building the linecount artefact
+
+# create the directories using for tarring the artefact
+mkdir -p $OJ_ARTEFACT_ROOT/bin
+
+cp $OJ_PACKAGE_ROOT/bin/run $OJ_ARTEFACT_ROOT/bin/run
